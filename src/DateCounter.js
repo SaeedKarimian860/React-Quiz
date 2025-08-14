@@ -19,7 +19,7 @@ function DateCounter() {
     // setCount((count) => count - 1);
     // setCount((count) => count - step);
   };
-  
+
   const inc = function () {
     dispatch(1);
 
