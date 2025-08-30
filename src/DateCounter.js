@@ -17,6 +17,7 @@ function reducer(state, action) {
     case "reset":
       return initialState;
     default:
+      
       throw new Error("Unknown action");
   }
 }
